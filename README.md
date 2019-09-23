@@ -4,10 +4,10 @@
 
 ### Week 1
 
-[] in progress
-[x] completed
+- [] in progress
+- [x] completed
 
 ### Week 2
 
-[x] in progress
-[] completed
+- [x] in progress
+- [] completed
