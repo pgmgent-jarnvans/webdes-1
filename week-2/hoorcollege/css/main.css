@@ -1,15 +1,28 @@
 .blok1 {
-  
+  width: 200px;
+  height: 300px;
+  /* Voorgedefinieerde kleuren */
+  background-color: tomato;
 }
 
 .blok2 {
-
+  width: 200px;
+  height: 300px;
+  /* Voorgedefinieerde kleuren */
+  background-color: #a25a5a;
 }
 
 .blok3 {
+  width: 200px;
+  height: 300px;
+  /* Voorgedefinieerde kleuren */
+  background-color: hsl(310, 100%, 50%);
 
 }
 
 .blok4 {
-
+  width: 200px;
+  height: 300px;
+  /* Voorgedefinieerde kleuren */
+  background-color: rgb(210, 93, 139);
 }
