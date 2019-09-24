@@ -1,0 +1,61 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container {}
+
+
+.box {}
+
+.orange {
+    background-color: #ff9f43;
+    /* Meer ruimte binnen het element: padding */
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    
+    /* Verkorte notatie */
+    /* padding: 20px 20px 50px 100px */
+    padding: 20px 100px;
+
+    /* Ruimte tussen elementen: margin */
+    margin-top:20px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+
+    /* Verkorte notatie */
+    margin: 20px 100px 40px 200px;
+
+}
+
+.red {
+    background-color: #ee5253;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.green {
+    background-color: #10ac84;
+
+    /* Rand: border */
+    /* 3 waarden: dikte stijl kleur  */
+    border-width: 10px;
+    border-style: solid;
+    border-color: palevioletred;
+
+    /* Verkorte notatie */
+    border: 10px solid #ff2970;
+}
+
+.blue {
+    background-color: #2e86de;
+    width: 200px;
+    border: 10px solid #dd1d57;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10%;
+}
+

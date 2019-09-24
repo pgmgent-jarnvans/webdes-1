@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #cbb867;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color: #8c6f4b;
+    padding: 10px 0;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+
+.foxycontent {
+    width: 600px; 
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    border: 10px solid #8c6f4b;
+}
+
+p {
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #8c6f4b;
+    color: #dbc8b1;
+    border-radius: 15px;
+}
+
+span {
+    font-weight: 700px;
+    color: #fff;
+}
+
+
+
