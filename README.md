@@ -11,3 +11,8 @@
 
 - [x] in progress
 - [ ] completed
+
+### Week 3
+
+- [x] in progress
+- [ ] completed

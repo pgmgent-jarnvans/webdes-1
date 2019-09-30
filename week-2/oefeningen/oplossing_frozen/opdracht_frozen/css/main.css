@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #4498c7;
+    line-height: 140%;
+}
+
+.frozen {
+    margin: 0 auto;
+    width: 600px;
+    border: 5px solid #9fc5c8;
+    background-color: #d1e9e9;
+    padding: 40px 25px;
+    border-radius: 25px 0 25px 0;
+    /* OF
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px; 
+    */
+    box-shadow: -5px 9px 10px 0px rgba(16, 28, 99, 0.301);
+}
+
+h2,
+p {
+    text-align: center;
+    background-color: #9fc5c8;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 25px;
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #d1e9e9;
+}
+
+h2 {
+    margin-top: 30px;
+    text-shadow: 0px 2px 2px #d1e9e9;
+    font-size: 2rem;
+}
+
+p {
+    text-shadow: 0px 2px 2px rgba(134, 37, 190, 0.3);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul {
+    /* list-style: none; */
+    list-style-image: url('../images/olafhead.png');
+}
