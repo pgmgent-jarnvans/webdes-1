@@ -9,8 +9,8 @@
 
 ### Week 2
 
-- [x] in progress
-- [ ] completed
+- [ ] in progress
+- [x] completed
 
 ### Week 3
 
