@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2{
+
+}
+.card img{
+    width:100%;
+}
+.card{
+    max-width: 300px;
+    margin: 20px;
+    
+}
+.card .sub{
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    margin: 200px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content{
+    min-height: 500px;
+}
+.container-structure header, 
+.container-structure footer{
+   width:100%;
+   min-height: 100px;
+   background-color: cadetblue;
+
+}
+.main-content article{
+   background-color: goldenrod;
+   
+}
+.main-content nav, 
+.main-content aside{
+    background-color: tomato;
+    border: 1px solid gold;
+ }
+ .main-content nav{
+
+ }
+ .main-content aside{
+
+}

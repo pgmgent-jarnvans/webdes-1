@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+    line-height: 150%;
+}
+
+.plantwrapper_dark p {
+    
+}
+
+.plantwrapper_light a {
+  
+}
+
+
+footer a {
+  
+}
+
+.decoimage {
+    max-width: 250px;
+    margin: 0px 10px 5px 10px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.plant1 {}
+
+.plant2 {}
+
+.plant3 {}
+
+.plant4 {}
+
+.plant5 {}
+
+
+.plantwrapper_dark {
+    
+}
+
+.plantwrapper_light {
+    
+}
+
+
+
+footer {
+   
+}

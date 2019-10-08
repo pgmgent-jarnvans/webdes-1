@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.parallax p {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 700;
+}

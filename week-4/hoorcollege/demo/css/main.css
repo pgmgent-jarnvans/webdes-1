@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 150%;
+}
+
+.wrapper-dark {
+    background-color: #3F5479;
+    color: #fff;
+    padding: 32px 20%;
+}
+
+.wrapper-darkest {
+    background-color: #2F4858;
+    color: #fff;
+    padding: 32px 20%;
+    ;
+}
+
+.wrapper-light {
+    background-color: rgb(164, 177, 185);
+    color: #2F4858;
+    padding: 32px 20%;
+    ;
+}
+
+footer {
+    text-align: center;
+    padding: 32px 20%;
+    background-color: #2F4858;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+
+}
+
+.pokeball {
+    float: left;
+    margin: 10px;
+}
+
+.pikachu {
+    float: left;
+}
+
+.eevee {
+    float: left;
+    clear: both;
+}
+
+.jiggle {
+    /* float: right; */
+    position: sticky;
+    top: 20px;
+}
+
+.mankey {}
+
+.meowth {
+    position: relative;
+    top: 60px;
+}
+
+.snorlax {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+}
+
+.squirtle {
+    position: absolute;
+    top: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
