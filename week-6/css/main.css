@@ -1,0 +1,17 @@
+.box {
+  width:200px;
+  height: 200px;
+  background-color: tomato;
+}
+
+@media (min-width: 400px) {
+  .box {
+    background-color: #13c8bf;
+  }
+}
+
+@media (min-width: 700px) {
+  .box {
+    background-color: #ff11b0;
+  }
+}

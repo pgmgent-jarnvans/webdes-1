@@ -35,7 +35,7 @@ main > a {
   display: block;
   width: 250px;
   margin: 30px auto;
-  padding: 20px 20px;
+  padding: 20px;
   border-radius: 50px;
   font-size: 24px;
   text-align: center;
@@ -45,7 +45,6 @@ main > a {
   color: #fff;
   animation: pulse 5s infinite;
 }
-
 main > a:hover {
   animation: none;
   opacity: 0.8;
@@ -84,6 +83,7 @@ h2 {
 p, li {
   font-family: 'Slabo 27px', serif;
   color: #958484;
+  font-size: 18px;
 } 
 
 footer {
@@ -98,12 +98,12 @@ footer > a  {
   color: #fff; 
 }
 
-footer a:nth-child(1), a:nth-child(2)  {
+footer a:nth-child(1), footer a:nth-child(2)  {
   margin-right: 20px; 
 }
 
 footer a:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .apply {
@@ -115,10 +115,10 @@ footer a:hover {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0px rgba(72, 172, 240, 0.5);
+    box-shadow: 0 0 0 0px rgba(9, 97, 156, 0.6);
   }
   50% {
-    box-shadow: 0 0 0 20px rgba(72, 172, 240, 0.0);
+    box-shadow: 0 0 0 25px rgba(72, 172, 240, 0.0);
   }
   100% {
     box-shadow: 0 0 0 0px rgba(72, 172, 240, 0.0)

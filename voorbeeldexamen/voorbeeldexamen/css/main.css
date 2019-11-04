@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:300,400,700,900');
+
+:root {
+  --grijs-light: #a6a9ac;
+  --grijs-donker: #757575;
+  --categorie-blauw: #38b7ea;
+  --categorie-rood: #ff7473;
+  --categorie-geel: #ffc952;
+  --categorie-groen: #6dc8bf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*-- ALGEMEEN --*/
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background: rgb(241, 241, 241);
+}
+
+h3 {
+  font-size: 18px;
+}
+
+header {
+  width: 100%;
+  padding: 30px 0;
+  background: #fff;  
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header-content > div {
+  width: 100%;
+}
+
+hr {
+  margin: 20px 0;
+  border-width: 0.7px;
+}
+
+.header-content > nav {
+  padding: 0;
+}
+
+.header-content > nav > ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.header-content > nav > ul > li {
+  margin-right: 25px;
+}
+
+.header-content > nav > ul > li:last-child {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.header-content > nav > ul > li > a {
+  color: var(--grijs-light);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all .5s ease-in-out;
+}
+
+.header-content > nav > ul > li > a:hover, .header-content > nav > ul > li > a.active {
+  font-weight: 400;
+  color: #000;
+}
+
+.card {
+  position: relative;
+  border: 5px solid #fff;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card > h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  background: linear-gradient(to right, var(--categorie-rood), var(--categorie-groen))
+}
+
+.card > p {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  background: var(--categorie-groen);
+}
+
+section {
+  margin-top: 30px;
+}
+
+section > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+section > div > div {
+  flex-basis: 48%;
+}
+
+main {
+  margin-top: 20px;
+}
+
+main > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > div > div > div {
+  flex-basis: 350px;
+}
+
+main > div > div.info {
+  margin-top: 20px;
+}
+
+main > div > div.info > div.left {
+  flex-basis: 360px;
+  flex-shrink: 1;
+}
+
+main > div > div.info > div.right {
+  flex-basis: 360px;
+  flex-grow: 2;
+}
+
+
+
+.host {
+  margin-bottom: 20px;
+  padding: 30px 0;
+  text-align: center;
+  background: #fff;
+  height: 280px;
+}
+
+.host > img {
+  margin-bottom: 20px;
+  width: 40%;
+  border-radius: 50%;
+}
+
+.host > h2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.host > p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: var(--grijs-light);
+}
+
+.host > i {
+  margin-right: 5px;
+  font-size: 40px;
+  color: var(--grijs-light);
+}
+
+.categories {
+  background: #fff;
+  color: var(--grijs-light);
+}
+
+.categories > .category {
+  border-bottom: 1px solid var(--grijs-light);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.categories > .category:last-child {
+  border-bottom: none;
+  padding: 20px;
+}
+
+.categories > .category > .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.categories > .category > .blue {
+  background: var(--categorie-blauw);
+}
+
+.categories > .category > .red {
+  background: var(--categorie-rood);
+}
+
+.categories > .category > .yellow {
+  background: var(--categorie-geel);
+}
+
+.categories > .category > .green {
+  background: var(--categorie-groen);
+}
+
+.news {
+  background: var(--categorie-blauw);
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.news > h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.news > p {
+  font-family: 'Merriweather', serif; 
+  font-size: 19px;
+  line-height: 35px;
+}
+
+.news > p:first-child {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.news:first-child > p:first-child > span {
+  margin-left: 10px;
+  background: #fff;
+  padding: 1px 8px;
+  color: var(--categorie-blauw);
+  text-transform: uppercase;
+}
+
+.news > div {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.news > div > a {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  margin-right: auto;
+}
+
+.news > div > p:last-child {
+  margin-left: 10px;
+}
+
+.news > div > p > i {
+  margin-right: 5px;
+}
+
+.news:last-child {
+  background: var(--categorie-rood);
+}
+
+footer {
+  margin-top: 30px;
+  background: #fff;
+  padding: 30px 0;
+}
+
+footer > div {
+  text-align: center;
+}
